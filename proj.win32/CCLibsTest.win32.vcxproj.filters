@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{feb41a75-5234-4731-9704-013134527622}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{296c546b-46d9-4c78-91c2-84b5ff5a2c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{2482076d-f180-45f6-8952-fae90677a327}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{f3aa19b7-c122-47dd-aa3c-5f7326430bb5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Libs\Message">
+      <UniqueIdentifier>{decccfbb-27ed-4766-b5a4-dc09fdcbf979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\TestMessage">
+      <UniqueIdentifier>{4e72eaa3-60d0-46eb-b19b-d29882cfe457}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CCLibsTest.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCLibsTest.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CCLibs\Message\CCMessage.h">
+      <Filter>Libs\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CCLibs\Message\CCMessageHandler.h">
+      <Filter>Libs\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestMessage\Car.h">
+      <Filter>Classes\TestMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestMessage\Datas.h">
+      <Filter>Classes\TestMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestMessage\Man.h">
+      <Filter>Classes\TestMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestMessage\TestMessage.h">
+      <Filter>Classes\TestMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CCLibs\Message\CCMessageManager2.h">
+      <Filter>Libs\Message</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCLibs\Message\CCMessage.cpp">
+      <Filter>Libs\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCLibs\Message\CCMessageHandler.cpp">
+      <Filter>Libs\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestMessage\Car.cpp">
+      <Filter>Classes\TestMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestMessage\Man.cpp">
+      <Filter>Classes\TestMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestMessage\TestMessage.cpp">
+      <Filter>Classes\TestMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCLibs\Message\CCMessageManager2.cpp">
+      <Filter>Libs\Message</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
