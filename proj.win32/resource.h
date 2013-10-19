@@ -1,5 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
+<<<<<<< HEAD
 // Used by CCLibsTest.RC
 //
 
